@@ -1,11 +1,11 @@
 # Ignore Python files & dependencies during Vercel deployment build
-requirements.txt
-*.py
-src/
-config/
-data/
-logs/
-tests/
-utils/
-venv/
-.pytest_cache/
+/requirements.txt
+/*.py
+/src/
+/config/
+/data/
+/logs/
+/tests/
+/utils/
+/venv/
+/.pytest_cache/

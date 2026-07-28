@@ -1,0 +1,125 @@
+{
+  "category_auth": [
+    {
+      "cohort": "AI Research and Media-native",
+      "dominant_trait": "API Key",
+      "percentage": 100.0
+    },
+    {
+      "cohort": "CRM and Sales",
+      "dominant_trait": "OAuth2",
+      "percentage": 100.0
+    },
+    {
+      "cohort": "Communications and Messaging",
+      "dominant_trait": "OAuth2",
+      "percentage": 100.0
+    },
+    {
+      "cohort": "Developer Infra and Data platforms",
+      "dominant_trait": "API Key",
+      "percentage": 100.0
+    },
+    {
+      "cohort": "Finance and Fintech",
+      "dominant_trait": "OAuth2",
+      "percentage": 70.0
+    },
+    {
+      "cohort": "Productivity and Project Management",
+      "dominant_trait": "API Key",
+      "percentage": 50.0
+    },
+    {
+      "cohort": "Support and Helpdesk",
+      "dominant_trait": "OAuth2",
+      "percentage": 100.0
+    }
+  ],
+  "buildability_self_serve": [
+    {
+      "cohort": "Easy",
+      "dominant_trait": "Free/Trial",
+      "percentage": 74.1
+    },
+    {
+      "cohort": "Medium",
+      "dominant_trait": "Free/Trial",
+      "percentage": 76.2
+    },
+    {
+      "cohort": "Ready Today",
+      "dominant_trait": "Free/Trial",
+      "percentage": 78.8
+    }
+  ],
+  "category_mcp": [
+    {
+      "cohort": "AI Research and Media-native",
+      "dominant_trait": "True",
+      "percentage": 100.0
+    },
+    {
+      "cohort": "CRM and Sales",
+      "dominant_trait": "False",
+      "percentage": 60.0
+    },
+    {
+      "cohort": "Communications and Messaging",
+      "dominant_trait": "False",
+      "percentage": 80.0
+    },
+    {
+      "cohort": "Data SEO and Scraping",
+      "dominant_trait": "False",
+      "percentage": 60.0
+    },
+    {
+      "cohort": "Developer Infra and Data platforms",
+      "dominant_trait": "False",
+      "percentage": 50.0
+    },
+    {
+      "cohort": "Developer Infra and Data platforms",
+      "dominant_trait": "True",
+      "percentage": 50.0
+    },
+    {
+      "cohort": "Ecommerce",
+      "dominant_trait": "False",
+      "percentage": 70.0
+    },
+    {
+      "cohort": "Finance and Fintech",
+      "dominant_trait": "False",
+      "percentage": 80.0
+    },
+    {
+      "cohort": "Marketing Ads Email and Social",
+      "dominant_trait": "False",
+      "percentage": 70.0
+    },
+    {
+      "cohort": "Productivity and Project Management",
+      "dominant_trait": "False",
+      "percentage": 80.0
+    },
+    {
+      "cohort": "Support and Helpdesk",
+      "dominant_trait": "False",
+      "percentage": 60.0
+    }
+  ],
+  "category_blockers": [
+    {
+      "cohort": "Data SEO and Scraping",
+      "dominant_trait": "Partner Approval Required",
+      "percentage": 66.7
+    },
+    {
+      "cohort": "Finance and Fintech",
+      "dominant_trait": "Partner Approval Required",
+      "percentage": 66.7
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+2026-07-28 17:17:29 | INFO     | __main__:29 - Starting Analytics Engine...
+2026-07-28 17:17:29 | INFO     | src.analytics.statistics_engine:28 - Statistics generated successfully.
+2026-07-28 17:17:30 | INFO     | src.analytics.pattern_discovery:34 - Patterns discovered.
+2026-07-28 17:17:30 | WARNING  | src.analytics.insight_generator:12 - OPENAI_API_KEY missing. Fallback to heuristic insights.
+2026-07-28 17:17:35 | INFO     | src.analytics.chart_generator:28 - Charts saved to ./data/outputs/charts
+2026-07-28 17:17:35 | INFO     | __main__:71 - Analytics Pipeline Finished Successfully.

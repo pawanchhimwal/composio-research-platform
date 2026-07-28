@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composio AI Product Intelligence</title>
+    <!-- Use Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Composio Intelligence</div>
+        <div class="nav-links">
+            <a href="#hero">Overview</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#dashboard">Analytics</a>
+            <a href="#dataset">Dataset</a>
+            <a href="#insights">Insights</a>
+        </div>
+    </nav>
+
+    <!-- 1. Hero -->
+    <section id="hero" class="hero section">
+        <div class="container">
+            <div class="hero-tag">Internal Case Study</div>
+            <h1 class="hero-title">AI Product Intelligence Platform</h1>
+            <p class="hero-subtitle">Automated Research, Verification, & Analysis of 100 SaaS Applications.</p>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3 id="hero-app-count">100</h3>
+                    <p>Applications Researched</p>
+                </div>
+                <div class="stat-card">
+                    <h3 id="hero-confidence">0%</h3>
+                    <p>Average Confidence</p>
+                </div>
+                <div class="stat-card">
+                    <h3>2<span class="muted">min</span></h3>
+                    <p>Time to Insights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Problem & 3. Solution -->
+    <section id="problem-solution" class="section bg-alt">
+        <div class="container two-col">
+            <div class="col-content">
+                <h2 class="section-title">The Challenge</h2>
+                <p class="text-body">
+                    Composio integrates with hundreds of tools. Before building an integration, we must research its authentication mechanisms, API surface, partner requirements, and buildability.
+                    Doing this manually for 100+ applications is unscalable, error-prone, and slow.
+                </p>
+            </div>
+            <div class="col-content">
+                <h2 class="section-title">The Solution</h2>
+                <p class="text-body">
+                    An autonomous dual-agent architecture. A <strong>Research Agent</strong> scrapes developer docs and extracts structured data. A completely independent <strong>Verification Agent</strong> re-reads the evidence and scores confidence. Finally, an <strong>Analytics Engine</strong> generates product insights.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Architecture & 5. Research Workflow & 6. Verification Workflow -->
+    <section id="workflow" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">System Architecture & Workflow</h2>
+            
+            <div class="workflow-steps">
+                <div class="step-card">
+                    <div class="step-icon">1</div>
+                    <h3>Autonomous Research</h3>
+                    <p>Scrapes developer portals, parses documentation, and leverages LLM Structured Outputs to enforce Pydantic schemas.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">2</div>
+                    <h3>Evidence Collection</h3>
+                    <p>Instead of hallucinating, every extracted field is mapped to an exact, valid URL from the official documentation.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">3</div>
+                    <h3>Independent Verification</h3>
+                    <p>A second LLM runs with Zero-Temperature. It checks domain authority, cross-references sources, and calculates confidence scores.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">4</div>
+                    <h3>Product Analytics</h3>
+                    <p>Pandas cross-tabulations dynamically discover integration patterns. Priority scores determine what to build next.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Analytics Dashboard -->
+    <section id="dashboard" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title text-center">Analytics Dashboard</h2>
+            <p class="text-center text-body mb-lg">Visualising the SaaS integration landscape.</p>
+            
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <img src="assets/charts/auth_distribution.png" alt="Authentication Distribution" onerror="this.src='https://via.placeholder.com/600x400?text=Chart+Pending'">
+                </div>
+                <div class="chart-container">
+                    <img src="assets/charts/buildability_pie.png" alt="Buildability Pie Chart" onerror="this.src='https://via.placeholder.com/600x400?text=Chart+Pending'">
+                </div>
+                <div class="chart-container span-2">
+                    <img src="assets/charts/category_mcp_heatmap.png" alt="Category vs MCP Heatmap" onerror="this.src='https://via.placeholder.com/800x400?text=Chart+Pending'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Interactive Dataset -->
+    <section id="dataset" class="section">
+        <div class="container">
+            <h2 class="section-title">Verified Dataset</h2>
+            <p class="text-body mb-lg">Filter and search the complete list of researched applications.</p>
+            
+            <div class="table-controls">
+                <input type="text" id="search-input" class="input-text" placeholder="Search applications...">
+                <select id="filter-auth" class="select-box">
+                    <option value="all">All Auth Methods</option>
+                    <option value="OAuth2">OAuth2</option>
+                    <option value="API Key">API Key</option>
+                </select>
+                <select id="filter-build" class="select-box">
+                    <option value="all">All Buildabilities</option>
+                    <option value="Ready Today">Ready Today</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+            </div>
+            
+            <div class="table-container">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>Application</th>
+                            <th>Category</th>
+                            <th>Auth Method</th>
+                            <th>API Type</th>
+                            <th>Buildability</th>
+                            <th>Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Executive Insights & 10. Recommendations -->
+    <section id="insights" class="section bg-alt">
+        <div class="container two-col">
+            <div class="col-content">
+                <h2 class="section-title">Executive Findings</h2>
+                <ul class="insights-list" id="executive-findings-list">
+                    <!-- Populated by JS -->
+                </ul>
+            </div>
+            <div class="col-content">
+                <h2 class="section-title">Top Integration Priorities</h2>
+                <ul class="insights-list" id="top-priorities-list">
+                    <!-- Populated by JS -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Limitations & 12. Future Work -->
+    <section id="conclusion" class="section">
+        <div class="container two-col">
+            <div class="col-content">
+                <h2 class="section-title">Limitations</h2>
+                <ul class="text-body list-styled">
+                    <li>Apps requiring partner accounts cannot be fully scraped.</li>
+                    <li>Community MCP support changes rapidly and may be outdated.</li>
+                    <li>Rate limits on certain developer portals can occasionally truncate evidence.</li>
+                </ul>
+            </div>
+            <div class="col-content">
+                <h2 class="section-title">Future Improvements</h2>
+                <ul class="text-body list-styled">
+                    <li>Implement scheduled cron jobs to detect API changes.</li>
+                    <li>Integrate headless browser (Playwright) for JS-rendered documentation.</li>
+                    <li>Automatically trigger Git PRs to Composio's monorepo when new integrations are marked "Ready Today".</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Composio AI Product Operations Assignment &bull; Built by pawan chhimwal</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

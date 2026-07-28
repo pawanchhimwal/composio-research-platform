@@ -1,0 +1,226 @@
+{
+  "top_priority": [
+    {
+      "name": "Help Scout",
+      "priority_score": 99.73,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Discord",
+      "priority_score": 99.7,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Close",
+      "priority_score": 99.64,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Freshdesk",
+      "priority_score": 99.62,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Plain",
+      "priority_score": 99.56,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Aircall",
+      "priority_score": 99.56,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Zoho Cliq",
+      "priority_score": 99.39,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Zoho CRM",
+      "priority_score": 99.38,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Gladly",
+      "priority_score": 99.31,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "HubSpot",
+      "priority_score": 99.19,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Twenty",
+      "priority_score": 99.19,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "DealCloud",
+      "priority_score": 99.18,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Zendesk",
+      "priority_score": 99.08,
+      "buildability": "Ready Today",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "Devin",
+      "priority_score": 94.84,
+      "buildability": "Ready Today",
+      "auth_primary": "API Key"
+    },
+    {
+      "name": "Consensus",
+      "priority_score": 94.82,
+      "buildability": "Ready Today",
+      "auth_primary": "API Key"
+    },
+    {
+      "name": "higgsfield",
+      "priority_score": 94.76,
+      "buildability": "Ready Today",
+      "auth_primary": "API Key"
+    },
+    {
+      "name": "Intercom",
+      "priority_score": 94.72,
+      "buildability": "Easy",
+      "auth_primary": "OAuth2"
+    },
+    {
+      "name": "NotebookLM",
+      "priority_score": 94.37,
+      "buildability": "Ready Today",
+      "auth_primary": "API Key"
+    },
+    {
+      "name": "Reducto",
+      "priority_score": 94.32,
+      "buildability": "Ready Today",
+      "auth_primary": "API Key"
+    },
+    {
+      "name": "Gorgias",
+      "priority_score": 94.24,
+      "buildability": "Easy",
+      "auth_primary": "OAuth2"
+    }
+  ],
+  "lowest_priority": [
+    {
+      "name": "PitchBook",
+      "priority_score": 48.6,
+      "blocker": "Enterprise Only Docs"
+    },
+    {
+      "name": "Apify",
+      "priority_score": 44.56,
+      "blocker": null
+    },
+    {
+      "name": "Google Ads",
+      "priority_score": 44.5,
+      "blocker": "Enterprise Only Docs"
+    },
+    {
+      "name": "Amazon Selling Partner",
+      "priority_score": 44.41,
+      "blocker": "Legacy SOAP Only"
+    },
+    {
+      "name": "Brex",
+      "priority_score": 44.01,
+      "blocker": null
+    },
+    {
+      "name": "Coda",
+      "priority_score": 43.93,
+      "blocker": "Legacy SOAP Only"
+    },
+    {
+      "name": "Gumroad",
+      "priority_score": 43.74,
+      "blocker": null
+    },
+    {
+      "name": "Clay",
+      "priority_score": 43.730000000000004,
+      "blocker": null
+    },
+    {
+      "name": "Xero",
+      "priority_score": 43.66,
+      "blocker": "Partner Approval Required"
+    },
+    {
+      "name": "Plaid",
+      "priority_score": 43.44,
+      "blocker": "Partner Approval Required"
+    },
+    {
+      "name": "Jira",
+      "priority_score": 39.53,
+      "blocker": null
+    },
+    {
+      "name": "SendGrid",
+      "priority_score": 39.53,
+      "blocker": "Legacy SOAP Only"
+    },
+    {
+      "name": "SE Ranking",
+      "priority_score": 38.870000000000005,
+      "blocker": "Legacy SOAP Only"
+    },
+    {
+      "name": "Ahrefs",
+      "priority_score": 38.79,
+      "blocker": null
+    },
+    {
+      "name": "MrScraper",
+      "priority_score": 38.66,
+      "blocker": "Partner Approval Required"
+    },
+    {
+      "name": "Mailchimp",
+      "priority_score": 28.759999999999998,
+      "blocker": null
+    },
+    {
+      "name": "Smartsheet",
+      "priority_score": 24.54,
+      "blocker": null
+    },
+    {
+      "name": "Magento (Adobe Commerce)",
+      "priority_score": 23.84,
+      "blocker": "Enterprise Only Docs"
+    },
+    {
+      "name": "DataForSEO",
+      "priority_score": 23.81,
+      "blocker": "Enterprise Only Docs"
+    },
+    {
+      "name": "Shopify",
+      "priority_score": 9.5,
+      "blocker": "Enterprise Only Docs"
+    }
+  ]
+}

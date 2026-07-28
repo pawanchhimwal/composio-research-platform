@@ -1,0 +1,7 @@
+2026-07-28 16:47:47 | WARNING  | __main__:42 - File verified_results.json not found, created empty placeholder.
+2026-07-28 16:47:47 | WARNING  | __main__:42 - File analytics.json not found, created empty placeholder.
+2026-07-28 16:47:47 | WARNING  | __main__:42 - File insights.json not found, created empty placeholder.
+2026-07-28 16:47:47 | WARNING  | __main__:42 - File summary.json not found, created empty placeholder.
+2026-07-28 16:47:47 | WARNING  | __main__:42 - File executive_report.json not found, created empty placeholder.
+2026-07-28 16:47:47 | WARNING  | __main__:52 - Charts directory not found.
+2026-07-28 16:47:47 | INFO     | __main__:54 - Website assets assembled successfully in /Users/pawanchhimwal/ assingment_composio/composio-research-platform/website.

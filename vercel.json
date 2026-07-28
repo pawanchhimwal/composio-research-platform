@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "website",
   "cleanUrls": true,
-  "outputDirectory": "website"
+  "framework": null
 }
